@@ -20,8 +20,9 @@ struct ErrorDetails : Codable {
 
 struct ErrorProperties : Codable {
     let domain : String
-    let location : String
-    let locationType :String
+    let extendedHelp : String?
+    let location : String?
+    let locationType :String?
     let message : String
     let reason : String
 }

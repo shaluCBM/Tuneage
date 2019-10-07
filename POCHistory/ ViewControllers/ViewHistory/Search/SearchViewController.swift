@@ -58,7 +58,7 @@ class SearchViewController: UIViewController, UISearchBarDelegate , UITableViewD
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
         self.searchText = searchText.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
-         //self.tableView.reloadData()
+        self.tableView.reloadData()
     }
     
     //MARK: - table view delegate

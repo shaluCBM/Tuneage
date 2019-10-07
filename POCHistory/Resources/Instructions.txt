@@ -1,0 +1,5 @@
+1.    Sign in to your Apple Data Privacy account page from above.
+2.    On the following page, select "Request a copy of your data" under "Get a copy of your sdata".
+3.    Select "Apple Media Services Information" and click on "Continue".
+4.    Choose file size.
+5.    Click on "Complete Request" and wait until you see Thank you note.

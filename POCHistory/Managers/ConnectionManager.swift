@@ -17,7 +17,7 @@ class ConnectionManager {
     let SEARCH_VIDEO: String = "search?part=snippet&q="
     let VIDEO_TYPE: String = "&type=video&key="
     let MAX_RESULTS : String = "&maxResults=10"
-    let API_KEY = "AIzaSyAJ6da6CZRKIxQtsWbB4me43zt_DWXBGCk"
+    let API_KEY = "AIzaSyCEJzTPjEN20qKQmjjBWQa66Z_HsUSw8u0"
    
     
     
@@ -31,6 +31,7 @@ class ConnectionManager {
             if let statusCode = response.response?.statusCode {
                 //print("StatusCode", statusCode)
                 if statusCode != 200 {
+                    self.printJSONResponseToConsole(jsonData: response.data!)
                     if let errorData = try? JSONDecoder().decode(ErrorWrapper.self, from: response.data!) {
                         completion(nil,errorData.error.message)
                     }

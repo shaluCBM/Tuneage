@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		820D84AA21CAE70B003FDEED /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D84A921CAE70B003FDEED /* SearchViewController.swift */; };
-		820FBEA221E65394002A6FB6 /* Instructions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 820FBEA121E65394002A6FB6 /* Instructions.txt */; };
 		821202FA21CC34AD006DFA37 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821202F921CC34AD006DFA37 /* SearchResultCell.swift */; };
 		821202FD21CC5515006DFA37 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821202FC21CC5515006DFA37 /* Search.swift */; };
 		821202FF21CC55E6006DFA37 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821202FE21CC55E6006DFA37 /* Item.swift */; };
 		8212030321CD00F5006DFA37 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8212030221CD00F5006DFA37 /* Error.swift */; };
 		8212030521CD22DC006DFA37 /* WatchVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8212030421CD22DC006DFA37 /* WatchVideoVC.swift */; };
+		82225534234B82B5000CC820 /* Instructions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82225533234B82B5000CC820 /* Instructions.txt */; };
 		8242C53D21CBE8F2009A5CE1 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242C53C21CBE8F2009A5CE1 /* ConnectionManager.swift */; };
 		826F265221CD3503005E1548 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826F265121CD3503005E1548 /* ImageViewExtension.swift */; };
 		826F265421DD033C005E1548 /* DownloadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826F265321DD033C005E1548 /* DownloadVC.swift */; };
@@ -39,12 +39,12 @@
 /* Begin PBXFileReference section */
 		4708E24F1882D05848591BFE /* Pods-POCHistory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCHistory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POCHistory/Pods-POCHistory.debug.xcconfig"; sourceTree = "<group>"; };
 		820D84A921CAE70B003FDEED /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		820FBEA121E65394002A6FB6 /* Instructions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Instructions.txt; path = ../../../../Documents/Instructions.txt; sourceTree = "<group>"; };
 		821202F921CC34AD006DFA37 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		821202FC21CC5515006DFA37 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		821202FE21CC55E6006DFA37 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8212030221CD00F5006DFA37 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		8212030421CD22DC006DFA37 /* WatchVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchVideoVC.swift; sourceTree = "<group>"; };
+		82225533234B82B5000CC820 /* Instructions.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Instructions.txt; sourceTree = "<group>"; };
 		8242C53C21CBE8F2009A5CE1 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
 		826F265121CD3503005E1548 /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
 		826F265321DD033C005E1548 /* DownloadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadVC.swift; sourceTree = "<group>"; };
@@ -216,8 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				82F67C4521C0CFE200CE5640 /* DownloadInstructions.txt */,
-				820FBEA121E65394002A6FB6 /* Instructions.txt */,
 				82F67C7A21C2EC0400CE5640 /* GoogleInstructions.txt */,
+				82225533234B82B5000CC820 /* Instructions.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 				82F67C3321C03BE700CE5640 /* Main.storyboard in Resources */,
 				82F67C4621C0CFE200CE5640 /* DownloadInstructions.txt in Resources */,
 				82F67C7B21C2EC0400CE5640 /* GoogleInstructions.txt in Resources */,
-				820FBEA221E65394002A6FB6 /* Instructions.txt in Resources */,
+				82225534234B82B5000CC820 /* Instructions.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,7 +533,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.clearbridgemobile.com.POCHistory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearbridgemobile.POCHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -555,7 +555,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.clearbridgemobile.com.POCHistory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearbridgemobile.POCHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
