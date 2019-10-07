@@ -1,0 +1,6 @@
+1.    Sign in to your Apple Data Privacy account page from above.
+2.    On the following page, select "Your download is ready" under "Manage your data".
+3.    Click "Get your data".
+4.    Wait for the page to redirect to 'Download Data' page.
+5.    Click on the "Download" button next to 'Apple Media Services Information'.
+

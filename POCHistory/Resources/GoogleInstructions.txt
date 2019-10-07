@@ -1,0 +1,7 @@
+1.    Sign in to your  Google Data Page .
+2.    On the following page, select “Select None”
+3.    Scroll down and select Google Play Music and Youtube
+4.    Click “Next”
+5.    On the following page, choose “Send download link via email” as Delivery Method.
+6.    Click on “Create Archive”
+7.    Few seconds later, click on Download button, when the data is available.
